@@ -52,10 +52,10 @@ function draw() {
 
 	
 	imageMode(CENTER);
-	// use image() command to add paper image to the ball.
+	// Usar el comando image() para agregar la imagen del papel a ball
 	image(paperImg,ball.position.x,ball.position.y,radius,radius)
 
-	// use image() command to add dustbin image in the canvas.
+	// Usar el comando image() para agregar el bote de basura al lienzo
 	image(dustbinImg, 1185, 570, 200,200)
 
 
